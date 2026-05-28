@@ -13,6 +13,8 @@ class GitHubSetupWindow: NSWindowController {
     private let reposField = NSTextField()
     private let statusLabel = NSTextField(labelWithString: "")
 
+    override init(window: NSWindow?) { super.init(window: window) }
+
     convenience init() {
         let w = NSWindow(
             contentRect: NSRect(x: 0, y: 0, width: 500, height: 290),

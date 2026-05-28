@@ -1,4 +1,5 @@
 import Foundation
+import QuartzCore
 
 class BanterEngine {
     static let shared = BanterEngine()
